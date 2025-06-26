@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 2px;
+
+    width: max-content;
+    margin: 0 auto;
+
+    background-color: black;
+    border: 2px solid black;
+}
+
+.cell {
+    display: grid;
+    place-items: center;
+    width: 60px;
+    aspect-ratio: 1;
+}
+
+.cell.white {
+    background-color: whitesmoke;
+}
+
+.cell.black {
+    background-color: gray;
+}
+
+.piece {
+    width: 90%;
+    aspect-ratio: 1;
+
+    border-radius: 50%;
+}
+
+.piece.black {
+    background-color: rgb(146, 146, 146);
+    border: 1px solid black;
+}
+
+.piece.white {
+    border: 1px solid lightgray;
+    background-color: white;
+}

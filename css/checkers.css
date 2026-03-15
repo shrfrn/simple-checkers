@@ -35,7 +35,7 @@ body {
 }
 
 .cell.selected {
-    background-color: #4CAF50 !important;
+    background-color: #4CAF50;
 }
 
 .cell.possible-move {
